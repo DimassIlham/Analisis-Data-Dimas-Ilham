@@ -4,7 +4,7 @@ Project ini merupakan "Belajar analisis data menggunakan Python" dari Dicoding I
 
 ## link untuk menampilkan streamlit project
 
-[Streamlit](linknya)
+[Streamlit](https://analystdata-dimasilham.streamlit.app/)
 
 ## Project Architecture
 - 'data/' : direktori untuk penyimpanan dataset
@@ -16,11 +16,11 @@ Project ini merupakan "Belajar analisis data menggunakan Python" dari Dicoding I
 ## Setup environment
 1. Clone ke direktori yang diinginkan
 ```
-git clone https://github.com/dimasilham
+git clone https://github.com/dimasilham/Analisis-Data-Dimas-Ilham
 ```
 2. Masuk direktori
 ```
-cd (nama repo)
+cd Analisis-Data-Dimas-Ilham
 ```
 3. Install requirements dari package yang digunakan
 ```
@@ -32,5 +32,4 @@ pip install -r requirements.txt
 ```
 cd submission
 streamlit run dashboard.py
-```
-"# Analisis-Data-Dimas-Ilham" 
+``` 
