@@ -5,7 +5,7 @@ import datetime as dt
 import streamlit as st
 
 # Load data
-all_data_df = pd.read_csv("all_data_tabel_df.csv")
+all_data_df = pd.read_csv("Data/all_data_tabel_df.csv")
 
 # Menggabungkan data on order_id untuk mendapatkan hitungan antara product dan review score
 product_count_and_score = pd.merge(all_data_df.groupby('order_id')['order_item_id'].count().reset_index(),
